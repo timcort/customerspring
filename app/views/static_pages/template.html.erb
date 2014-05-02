@@ -1,4 +1,4 @@
-<% provide(:title, 'Home') %>
+<% provide(:title, 'template') %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,48 +6,39 @@
 	</head>
     <body>
 <!-- Jumbotron -->
-		<div class="hero">
+		<div class="herotemplate">
 		  <div class="container">
 		    <div class="jumbotron">
-		      <h1>Increase Sales, Margins, Repeat Business & Referrals</h1>
+		      <h1>[Name], Increase Sales, Margins, Repeat Business & Referrals</h1>
 		      <h2>While reducing customer acquisition costs</h2><br>
 		      <div class="flex-video widescreen span10 offset1">
 		        <div>
-		          <iframe src="//fast.wistia.net/embed/iframe/ppiazqbzly" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="853" height="480"></iframe>
+		          <iframe src="//fast.wistia.net/embed/iframe/vzh3i0bp1d" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="853" height="480"></iframe>
 		        </div>  
 		      </div>
 
-		      <span class="cta"><h2>Apply to become a Customer Spring Client*</h2></span>
-		      <a class="btn btn-lg btn-warning typeform-share" href="https://customerspring.typeform.com/to/EZjGNX" data-mode="1" target="_blank">
-		        <span class="visible-xs">Get Started Here*</span>
-		        <span class="hidden-xs">Get Started Here*</span></a>
-		      <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()
-		       </script><br><br><br>
+		      <span class="cta"><br><h3>[Name], we are currently talking with selected potential clients we have identified as meeting our criteria in the [business type] industry.</h3></span><br>
+		      <span class="cta"><h3>We will move forward and work with one client in this industry where there is the best mutual fit.</h3></span><br>
+		      <span class="cta"><h3>Click the button below to organise a chat at your office.</h3></span><br>
+		      <a class="btn btn-lg btn-warning" data-appointlet="customerspring" data-mode="1" target="_blank">
+		        <span class="visible-xs">Schedule Disscussion*</span>
+		        <span class="hidden-xs">Schedule Discussion*</span></a>
+		      <script>(function(e,t,n,r){if(e)return;t._appt=true;var i=n.createElement(r),s=n.getElementsByTagName(r)[0];i.async=true;i.src='//dje0x8zlxc38k.cloudfront.net/loaders/s-min.js';s.parentNode.insertBefore(i,s)})(window._appt,window,document,"script")</script><br><br><br>
 		       <span class="center">*Prospective clients must meet key standards and criteria to be eligible for Customer Spring services.</span>
-
 		    </div>
 		  </div>
 		</div>
-
-		  <!-- process -->
-
-<!-- 		<div class="container">
-		  <div class="row center featurette"> -->
-		<!--     <h2 class="hiw-heading">How it Works</h2> -->
-		<!--     <div class="col-lg-4">
-		        <%= image_tag "badges.001.png", alt: "image 1", class: "img-circle" %><br>
-		        <h2><small>1: Analyse & break down customer needs & concerns at each phase of the sales process</small></h2>
-		    </div>
-		    <div class="col-lg-4">
-		        <%= image_tag "badges.002.png", alt: "image 1", class: "img-circle" %><br>
-		        <h2><small>2: Build an automated smart customer acquisition loop that nurtures & moves customers along the loop</small></h2>
-		    </div>
-		    <div class="col-lg-4">
-		        <%= image_tag "badges.003.png", alt: "image 1", class: "img-circle" %><br>
-		        <h2><small>3: Increase sales, margins, repeat business and referrals while reducing costs.</small></h2>
-		    </div>
-		  </div>
-		</div> -->
+		<div class="container">
+			<div class="row">
+				<div class= "col-md-2 col-sm-3 col-xs-3"><%= image_tag "timheadshot.png", alt: "image 1", class: "img-thumbnail" %></div>
+				<div class="col-xs-9 col-sm-9 col-md-9">
+					<div class="col-xs-12 col-sm-12 col-md-12 consultantname">Tim Cort</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 consultanttitle">Business Development Manager, <span class="customerspring">Customer Spring</span></div>
+					<div class="col-xs-12 col-sm-12 col-md-12 phoneemail"><a class="link" href="mailto:tim@customerspring.com" data-mode="1" target="_blank">tim@customerspring.com</a></div>
+					<div class="col-xs-12 col-sm-12 col-md-12 phoneemail">07 3040 6216</div>
+				</div>
+			</div>
+		</div><br><br><br>
 
 
 		<!-- START THE BENEFIT FEATURETTES -->
@@ -117,4 +108,3 @@
 		</div>
 	</body>
 </html> 
-

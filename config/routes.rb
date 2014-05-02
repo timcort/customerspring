@@ -2,6 +2,7 @@ Customerspring::Application.routes.draw do
   root  'static_pages#home'
   match '/about',   to: 'static_pages#about',   via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
+  match '/template', to: 'static_pages#template', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
