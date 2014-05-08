@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def template
   end
+
+  def walshs
+  end
 end
