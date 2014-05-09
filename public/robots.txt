@@ -6,3 +6,5 @@
  Disallow: /template
  Disallow: /walshs
 
+ Sitemap: http://app.wistia.com/sitemaps/41723.xml
+
